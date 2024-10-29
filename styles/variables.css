@@ -10,7 +10,9 @@
   --header-title-color: #DB00FF;
   --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 
-  --padding: 10px;
+  --indent-horizontal: 10px;
+  --indent-vertical: 40px;
+  --indent-gap: 50px;
 
   --button-hover: rgba(255, 0, 112, 0.40);
 }

@@ -21,30 +21,27 @@
   justify-content: space-between;
   min-block-size: 668px;
   block-size: 100vb;
-  padding: var(--padding, 10px);
+  padding: var(--indent-horizontal, 10px);
 }
 
 .decorated-zone::before,
 .decorated-zone::after {
-  position: absolute;
-  
+  position: absolute;  
   content: "";
   inline-size: 25px;
   block-size: 25px;
 }
 
 .decorated-zone::before {
-  inset-block-end: var(--padding, 10px);
-  inset-inline-start: var(--padding, 10px);
-  
+  inset-block-end: var(--indent-horizontal, 10px);
+  inset-inline-start: var(--indent-horizontal, 10px);  
   border-block-end: 1px solid var(--accent-color);
   border-inline-start: 1px solid var(--accent-color);
 }
 
 .decorated-zone::after {
-  inset-block-start: var(--padding, 10px);
-  inset-inline-end: var(--padding, 10px);
-  
+  inset-block-start: var(--indent-horizontal, 10px);
+  inset-inline-end: var(--indent-horizontal, 10px);  
   border-block-start: 1px solid var(--accent-color);
   border-inline-end: 1px solid var(--accent-color);
 }
@@ -53,7 +50,6 @@
   position: absolute;
   inset-inline-end: 39px;
   inset-block-start: 11px;
-
   color: var(--accent-color);
   font: inherit;
   line-height: 138%;
@@ -125,8 +121,11 @@
   align-self: center;
   max-block-size: 117px;
   inline-size: 355px;
-  color: var(--background-color);
   font: inherit;
-  font-weight: 700;  
+  font-weight: 700;
+}
+
+.title-decor {
+  color: var(--background-color);
   background-color: var(--accent-color);
 }
