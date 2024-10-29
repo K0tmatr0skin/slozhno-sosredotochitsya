@@ -14,7 +14,7 @@
 }
 
 .header {
-  position: relative;  
+  position: relative;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   grid-template-columns: 1fr;
@@ -26,7 +26,7 @@
 
 .decorated-zone::before,
 .decorated-zone::after {
-  position: absolute;  
+  position: absolute;
   content: "";
   inline-size: 25px;
   block-size: 25px;
@@ -34,14 +34,14 @@
 
 .decorated-zone::before {
   inset-block-end: var(--indent-horizontal, 10px);
-  inset-inline-start: var(--indent-horizontal, 10px);  
+  inset-inline-start: var(--indent-horizontal, 10px);
   border-block-end: 1px solid var(--accent-color-secondary);
   border-inline-start: 1px solid var(--accent-color-secondary);
 }
 
 .decorated-zone::after {
   inset-block-start: var(--indent-horizontal, 10px);
-  inset-inline-end: var(--indent-horizontal, 10px);  
+  inset-inline-end: var(--indent-horizontal, 10px);
   border-block-start: 1px solid var(--accent-color-secondary);
   border-inline-end: 1px solid var(--accent-color-secondary);
 }
@@ -194,7 +194,7 @@
   padding: var(--indent-horizontal, 10px);
 }
 
-.footer__title {  
+.footer__title {
   font-family: inherit;
   color: var(--main-title-color);
   font-size: var(--main-title-size);
