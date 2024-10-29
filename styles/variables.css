@@ -7,12 +7,22 @@
   --main-font-size: 18px;
   --main-line-height: 130%;
 
-  --header-title-color: #DB00FF;
-  --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --main-title-color: #DB00FF;
+  --main-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 
   --indent-horizontal: 10px;
   --indent-vertical: 40px;
   --indent-gap: 50px;
 
   --button-hover: rgba(255, 0, 112, 0.40);
+}
+
+@media (width >= 768px) {
+  :root {
+    --indent-horizontal: 20px;
+    --indent-vertical: 60px;
+    --indent-gap: 80px;
+
+    --main-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
