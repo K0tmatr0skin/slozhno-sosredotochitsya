@@ -35,15 +35,15 @@
 .decorated-zone::before {
   inset-block-end: var(--indent-horizontal, 10px);
   inset-inline-start: var(--indent-horizontal, 10px);  
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-color-secondary);
+  border-inline-start: 1px solid var(--accent-color-secondary);
 }
 
 .decorated-zone::after {
   inset-block-start: var(--indent-horizontal, 10px);
   inset-inline-end: var(--indent-horizontal, 10px);  
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--accent-color-secondary);
+  border-inline-end: 1px solid var(--accent-color-secondary);
 }
 
 .header-decor {
@@ -81,7 +81,7 @@
 }
 
 .header__theme-menu-item {
-  color: var(--accent-color);
+  color: var(--accent-color-secondary);
   font: inherit;
 }
 
@@ -103,7 +103,7 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--accent-color-secondary);
 }
 
 .header__title {
