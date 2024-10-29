@@ -1,4 +1,16 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {  
+  --background-color: #000028;
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+
+  --main-font-family: 'IBM Plex mono', monospace;
+  --main-font-size: 18px;
+  --main-line-height: 130%;
+
+  --header-title-color: #DB00FF;
+  --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+
+  --padding: 10px;
+
+  --button-hover: rgba(255, 0, 112, 0.40);
+}
